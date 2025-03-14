@@ -7,6 +7,35 @@ p {
   color: white;
   align-content: center
 }
+
 h1 {
   font-weight: bold;
+}
+
+ul.nav {
+  font-family: "Monaco", "Courier New", monospace;
+  color: white;
+  list-style-type: none;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #181818;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav a:hover {
+  background-color: #111;
 }
