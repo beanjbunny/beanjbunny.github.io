@@ -39,3 +39,22 @@ li.nav a {
 li.nav a:hover {
   background-color: #111;
 }
+
+.active {
+  background-color: #004848;
+}
+
+/* unvisited link */
+a:link {
+  color: 0dffff;
+}
+
+/* visited link */
+a:visited {
+  color: ff08ff;
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+}
