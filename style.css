@@ -10,6 +10,9 @@ p {
 
 h1 {
   font-weight: bold;
+  color: white;
+  text-align: center;
+  font-family: "Monaco", "Courier New", monospace;
 }
 
 ul.nav {
@@ -21,6 +24,11 @@ ul.nav {
   padding: 0;
   overflow: hidden;
   background-color: #181818;
+}
+
+ul{
+  font-family: "Monaco", "Courier New", monospace;
+  color: white;
 }
 
 li.nav {
@@ -57,4 +65,57 @@ a:visited {
 /* mouse over link */
 a:hover {
   color: white;
+}
+
+/*I got this from w3 schools and I don't understand it either good luck every body else*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  font-family: "Monaco", "Courier New", monospace;
+  color: white;
+  align-content: center;
+  height:100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  /*This determines how many lil pictures can be in the gallery*/
+  width: 33.3333333%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
