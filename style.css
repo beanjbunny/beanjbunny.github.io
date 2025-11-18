@@ -54,12 +54,12 @@ li.nav a:hover {
 
 /* unvisited link */
 a:link {
-  color: 0dffff;
+  color: #0dffff;
 }
 
 /* visited link */
 a:visited {
-  color: ff08ff;
+  color: #ff08ff;
 }
 
 /* mouse over link */
