@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <img src="small_logo.png" alt="The neon.98 logo">
+    <ul class="nav">
+      <li class="nav"><a href="landing.html">Home</a></li>
+      <li class="nav"><a href="about.html">About</a></li>
+      <li class="nav"><a class="active" href="games.html">Games</a></li>
+      <li class="nav"><a href="https://neon98games.blogspot.com/">Blog</a></li>
+      <li class="nav"><a href="tutorials.html">Tutorials</a></li>
+    </ul>
+    <h1>
+      Makealotl Music
+    </h1>
+    <p>
+      <img src="vb1.png" alt="purple and blue pixel art Vaporwave Battler banner">
+    </p>
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ho76OSLTKTA?si=nv9jkhhmthQjVbjL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p>
+    <p>
+      Vaporwave Battler is a turn based trip back in time where you'll use every gnarly move you've got to fight through the best the 1980s and 1990s has to throw at you.
+    </p>
+    <ul>
+      <li>Turn based single player action with random enemies and moves thrown at you for a more roguelike experience -- no two runs are ever the same</li>
+      <br>
+      <li>Set in the glowy retro neon future</li><br>
+      <li>Pixel art as you remember it under a CRT haze</li><br>
+      <li>10 unique enemies to encounter</li><br>
+      <li>10 unique moves to unleash</li><br>
+      <li>How many bad guys can you take down?</li><br>
+    </ul>
+<p>
+    </p>
+    <div style="width: 100%;">
+      <div style="width: 80%; margin: auto">
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="vb2.png">
+          <img src="vb2.png" alt="Fight retro enemies like this cassette tape" width="600" height="400">
+        </a>
+        <div class="desc">Fight retro enemies like this cassette tape</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="vb3.png">
+          <img src="vb3.png" alt="Try your luck against my good friend Puck Pal here" width="600" height="400">
+        </a>
+        <div class="desc">Try your luck against my good friend Puck Pal here</div>
+      </div>
+    </div>
+    <div class="responsive">
+      <div class="gallery">
+        <a target="_blank" href="vb4.png">
+          <img src="vb4.png" alt="It's a screen shot where you fight that teal and purple squiggle that was on cups way back in the day" width="600" height="400">
+        </a>
+        <div class="desc">Different enemies have different types</div>
+      </div>
+        </div>
+    </div>
+    </div>
+      <div class="clearfix"></div>
+    <p>
+      <a href ="https://beanbunny.itch.io/vaporwave-battler"><img src="buy_on_itch.png" alt="Buy Vaporwave Battler on Itch" /></a>
+    </p>
+  </body>
+</html>
