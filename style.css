@@ -52,6 +52,16 @@ li.nav a:hover {
   background-color: #85008E;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle;
+}
+
 /* unvisited link */
 a:link {
   color: #0dffff;
