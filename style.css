@@ -59,6 +59,7 @@ li.nav a:hover {
 
 td {
   text-align: center;
+  font-family: "Monaco", "Courier New", monospace;
   vertical-align: middle;
 }
 
