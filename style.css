@@ -65,11 +65,13 @@ td {
 
 /* unvisited link */
 a:link {
+  font-family: "Monaco", "Courier New", monospace;
   color: #0dffff;
 }
 
 /* visited link */
 a:visited {
+  font-family: "Monaco", "Courier New", monospace;
   color: #ff08ff;
 }
 
