@@ -64,6 +64,10 @@ td {
   vertical-align: middle;
 }
 
+tr {
+   padding: 5px;
+}
+
 /* unvisited link */
 a:link {
   font-family: "Monaco", "Courier New", monospace;
